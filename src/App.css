@@ -14,10 +14,14 @@ p {
     box-sizing: border-box;
 }
 
-    /*  from: https://coolors.co */
 :root {
-  --light-shades: #F8F991;
-  --main-brand: #9AB87A;
-  --dark-accent: #3D315B;
-  --dark-shades: #444B6E;
+
+    /* colors from: https://coolors.co */
+    --light-shades: #F8F991;
+    --main-brand: #9AB87A;
+    --dark-accent: #3D315B;
+    --dark-shades: #444B6E;
+    /* padding */
+    --page-padding: 1.2rem 10rem;
+
 }

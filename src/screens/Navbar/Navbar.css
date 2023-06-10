@@ -1,0 +1,28 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    padding: var(--page-padding);
+    background-color: var(--main-brand);
+    color: var(--light-shades);
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.navbar-links-container{
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar-links-container a{
+    color: var(--light-shades);
+    text-decoration: none; /* removes text decoration from links */
+    transition: all 0.2s ease-in-out;
+}
+
+/*adds animation for hovering over the links*/
+.navbar-links-container a:hover{
+    color: var(--dark-shades);
+    transform: translateY(-3px);
+    text-shadow: 1px 1px 2px var(--dark-shades);    
+}
