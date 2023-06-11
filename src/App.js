@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css"
-import { Navbar, Landing, AboutMe } from "./screens"
+import { Navbar, Landing, AboutMe, Skills } from "./screens"
 
 
 export default function App() {
@@ -9,6 +9,7 @@ export default function App() {
         <Navbar />
         <Landing />
         <AboutMe />
+        <Skills />
     </div>
   );
 }
