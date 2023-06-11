@@ -24,8 +24,11 @@ p {
     --dark-shades: #6F1D1B;
     /* padding */
     --page-padding: 1.2rem 10rem;
+    --padding: 1.2rem;
     /* gap */
     --gap: 1.5rem; 
+    /*border*/
+    --border-radius: 5px;
 }
 
 @media screen and (max-width: 768px){

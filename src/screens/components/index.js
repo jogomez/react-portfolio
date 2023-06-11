@@ -1,3 +1,4 @@
 import Background from "./Background/Background";
+import Typewritter from "./Typewritter"
 
-export { Background };
+export { Background, Typewritter };
