@@ -12,16 +12,17 @@ p {
 *::before {
     /* this is for the box not having extra size when adding "padding" */
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 :root {
 
     /* colors from: https://coolors.co */
-    --light-shades: #F8F991;
-    --main-brand: #9AB87A;
-    --dark-accent: #3D315B;
-    --dark-shades: #444B6E;
+    --light-shades: #FFE6A7;
+    --main-brand: #BB9457;
+    --dark-accent: #99582A;
+    --dark-shades: #6F1D1B;
     /* padding */
     --page-padding: 1.2rem 10rem;
-
+    /*font*/
 }

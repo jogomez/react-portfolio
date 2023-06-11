@@ -4,8 +4,8 @@
     padding: var(--page-padding);
     background-color: var(--main-brand);
     color: var(--light-shades);
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 500;
     letter-spacing: 1px;
 }
 
@@ -20,9 +20,16 @@
     transition: all 0.2s ease-in-out;
 }
 
-/*adds animation for hovering over the links*/
+/* adds animation for hovering over the links */
 .navbar-links-container a:hover{
     color: var(--dark-shades);
     transform: translateY(-3px);
     text-shadow: 1px 1px 2px var(--dark-shades);    
+}
+
+/* hambuguer menu source: svgrepo.com */
+.navbar-container img{
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
 }
