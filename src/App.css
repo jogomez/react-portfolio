@@ -24,5 +24,21 @@ p {
     --dark-shades: #6F1D1B;
     /* padding */
     --page-padding: 1.2rem 10rem;
-    /*font*/
+    /* gap */
+    --gap: 1.5rem; 
 }
+
+@media screen and (max-width: 768px){
+    :root{
+        --page-padding: 1rem 2rem;
+    }
+    .navbar-container {
+        flex-direction: column;
+        gap: var(--gap);
+    } 
+    .navbar-links-container {
+        flex-direction: column;
+        text-align: right;
+    }
+}
+
