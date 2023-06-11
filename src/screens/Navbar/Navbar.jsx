@@ -1,4 +1,4 @@
-import {useState, useEffect} from "react";
+import {useState} from "react";
 import "./Navbar.css"
 import hamburgerBtn from "./hamburger-menu.svg"
 
@@ -16,17 +16,7 @@ export default function Navbar() {
             setShowButton(true);
             setShowLinks(false);
         }
-    })
-
-    useEffect(() => {
-        if (window.innerWidth > 768){
-            setShowButton(false);
-            setShowLinks(true);
-        } else {
-            setShowButton(true);
-            setShowLinks(false);
-        }
-    }, [])
+    });
 
     return(
         <div className = 'navbar-container'>
