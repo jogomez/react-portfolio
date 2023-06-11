@@ -37,16 +37,13 @@ function Typewritter({data = [], TypeSpeed = 100, MsgDelay = 2000}) {
             CharacterPos++;
             setTimeout(StartTyping, delay);
         }
-        
         StartTyping();
+    });
 
-    },[]);
-
-  return (
-    <textarea id="typing-text" readOnly>
-
-    </textarea>
-  )
+    return (
+        <textarea id="typing-text" readOnly>
+        </textarea>
+    )
 }
 
 export default Typewritter;
