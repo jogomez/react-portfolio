@@ -35,7 +35,30 @@ html {
     scroll-behavior: smooth;
 }
 
-@media screen and (max-width: 768px){
+.background-animation {
+    background: linear-gradient(
+        -45deg,
+        var(--dark-shades),
+        var(--light-shades),
+        var(--dark-accent)
+    );
+    background-size: 200% 200%;
+    animation: gradient 4s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;    
+    }
+}
+
+@media screen and (max-width: 768px) {
     :root{
         --page-padding: 1rem 2rem;
     }

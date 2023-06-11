@@ -6,7 +6,6 @@ import mongodbImg from "./svg/mongodb-svgrepo-com.svg";
 import gitImg from "./svg/git-svgrepo-com (1).svg";
 import gitlabImg from "./svg/git-lab-svgrepo-com.svg";
 import awsImg from "./svg/aws-svgrepo-com.svg";
-import nodeImg from "./svg/node-js-svgrepo-com.svg";
 
 export const techs = [
     { name: "HTML", image: htmlImg },
@@ -17,5 +16,4 @@ export const techs = [
     { name: "Git", image: gitImg },
     { name: "Git Lab", image: gitlabImg },
     { name: "AWS", image: awsImg },
-    { name: "Node", image: nodeImg },
 ]
