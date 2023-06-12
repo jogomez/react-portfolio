@@ -4,6 +4,8 @@
     gap: var(--gap);
     justify-content: center;
     align-items: center;
+    color: var(--light-shades);
+    background-color: var(--main-brand)
 }
 
 .aboutme-container img {

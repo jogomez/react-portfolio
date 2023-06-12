@@ -75,3 +75,22 @@ html {
     }
 }
 
+.btn {
+    padding: 0.45rem 1.2rem;
+    cursor: pointer;
+    background-color: var(--dark-shades);
+    border-radius: var(--border-radius);
+    color: var(--main-brand);
+    border: none;
+    transition: all 0.2s ease-in-out;
+    width: fit-content;
+}
+
+.btn:hover {
+    background-color: var(--main-brand);
+    color: var(--light-shades);
+}
+
+.align-right{
+    margin-left: auto;
+}
