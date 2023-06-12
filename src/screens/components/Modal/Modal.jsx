@@ -2,7 +2,7 @@ import React from 'react'
 import "./Modal.css"
 
 
-function Modal({onClick, title, description, image, url}) {
+function Modal({onClick, title, description, image, url, github}) {
     return (
         <div className="modal-container">
             <div className="modal-content">
@@ -14,7 +14,12 @@ function Modal({onClick, title, description, image, url}) {
                     <p className="span2">{description}</p>
                     <a href={url} target="_blank" rel="noreferrer">         
                     <button className="btn">
-                        Go to website
+                        Deployed website
+                    </button>
+                    </a>
+                    <a href={github} target="_blank" rel="noreferrer">         
+                    <button className="btn">
+                        Github
                     </button>
                     </a>
             </div>

@@ -42,6 +42,7 @@ function Projects() {
                         description={currentProject.description}
                         image={currentProject.image}
                         url={currentProject.url} 
+                        github={currentProject.github} 
                     />
                 )}
                 {projectList}
