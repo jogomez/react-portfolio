@@ -19,7 +19,7 @@ export const projects = [
     },
     {
         title: "Video Game Arcade",
-        description: "Play games like hangman, chess, tic-tac-toe, and battleship. Created with Mongo DB, Express JS and React.",
+        description: "Play games like Hangman, Chess, Tic-tac-toe, and Battleship. Created with Mongo DB, Express JS, GraphQL and React.",
         image: "./img/arcade-games.png",
         url: "https://whispering-beach-93510.herokuapp.com/",
     },

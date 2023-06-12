@@ -8,6 +8,7 @@ function Projects() {
     const [currentIdx, setCurrentIdx] = useState(null);
 
     const handleClick = (idx) => setCurrentIdx(idx);
+    const removeCurrent = () => setCurrentIdx(null);
 
     const projectList = projects.map((project, idx) => {
         return (
@@ -16,6 +17,7 @@ function Projects() {
                 onClick={() => handleClick(idx)} 
                 className="projects-frame"
             >
+                <p>{project.title}</p>
                 <img src={require(`${project.image}`)} alt={project.title}/>
             </div>
         );
@@ -35,6 +37,7 @@ function Projects() {
             <div className="projects-grid">
                 {currentProject && (
                     <Modal 
+                        onClick={removeCurrent}
                         title={currentProject.title} 
                         description={currentProject.description}
                         image={currentProject.image}

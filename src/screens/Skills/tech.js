@@ -12,8 +12,8 @@ export const techs = [
     { name: "CSS", image: cssImg },
     { name: "JavaScript", image: jsImg },
     { name: "React", image: reactImg },
-    { name: "Mongo DB", image: mongodbImg },
+    { name: "MongoDB", image: mongodbImg },
     { name: "Git", image: gitImg },
-    { name: "Git Lab", image: gitlabImg },
+    { name: "GitLab", image: gitlabImg },
     { name: "AWS", image: awsImg },
 ]

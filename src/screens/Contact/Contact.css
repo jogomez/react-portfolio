@@ -1,0 +1,9 @@
+.contact-container{
+    display: flex;
+    background-color: var(--dark-shades);
+    padding: var(--padding);
+    justify-content: space-evenly;
+    color: var(--main-brand);
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
