@@ -29,7 +29,7 @@ Simply navigate to the webpage [here](https://react-portfolio-jg.herokuapp.com/)
 Recruiters and potential customers can see the developer's abilities demonstrated in the portfolio. In the skills section, you will find the technologies in which the developer has experience. In the projects section, you can find links to deployed app and Github repository.
 
 ## Demo
-(insert gif)
+![](https://github.com/jogomez/react-portfolio/blob/main/portfolio-gif.gif)
 
 
 ## License
