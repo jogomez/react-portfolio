@@ -1,5 +1,12 @@
 export const projects = [
     {
+        title: "Note Taker",
+        description: "Simple Note taker for saving your thoughts and turn your ideas into action.",
+        image: "./img/note-taker.png",
+        url: "https://notetaker01.herokuapp.com/",
+        github: "https://github.com/jogomez/note-taker",
+    },
+    {
         title: "Weather Forecast",
         description: "This is a web page that displays the current weather conditions and the 5-day forecast of a given city.",
         image: "./img/weather-forecast.png",
@@ -15,14 +22,14 @@ export const projects = [
     },
     {
         title: "Movie Reviewer",
-        description: "App created with Express JS and Handlebars. Users can leave reviews for their favorite movie.",
+        description: "App created with Express JS and Handlebars where users can leave reviews for their favorite movie.",
         image: "./img/movie-reviewer.png",
         url: "https://binary-trio-movie-reviewer.herokuapp.com/",
         github: "https://github.com/JordyMarquez/Binary-Trio-Movie-Reviewer",
     },
     {
         title: "Video Game Arcade",
-        description: "Play games like Hangman, Chess, Tic-tac-toe, and Battleship. Created with Mongo DB, Express JS, GraphQL and React.",
+        description: "Play games like Hangman, Chess, Tic-tac-toe, and Battleship. Created with Mongo DB, Express JS, GraphQL, and React.",
         image: "./img/arcade-games.png",
         url: "https://whispering-beach-93510.herokuapp.com/",
         github: "https://github.com/jmabie94/PWA-React-Game-App",
